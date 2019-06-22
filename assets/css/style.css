@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+  }
+  
+  body {
+    background-image: url('../images/full-bloom.png');
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: gray;
+    padding: 0px;
+  }
+
+  header {
+    background-color: #ffffff;
+    border-bottom: 2px solid #e5e5e5;
+    height: 70px;
+  }
+
+#me {
+  float:left;
+  position: fixed;
+  left: 225px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: 48px;
+  line-height: 72px;
+  height: 67px;
+  width: 450px;
+  text-align: center;
+  }
+
+#links {
+  float: left;
+  position: relative;
+  left: 1020px;
+  top: 30px;
+}
+
+#content {
+  clear: both;
+  background-color: #ffffff;
+  margin: 225px;
+  margin-top: 30px;
+  margin-bottom: 90px;
+  border: 1px solid #e5e5e5;
+  padding: 30px;
+  width: 960px;
+}
+
+#title {
+  background-color: #ffffff;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 3px solid #e5e5e5;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+img {
+  float: left;
+  padding-right: 20px;
+}
+
+p {
+  line-height: 32px;
+}
+
+footer {
+  background-color: #666666;
+  color: #dddddd;
+  width: 100%;
+  border-top: 10px solid #4aaaa5;
+  padding: 30px;
+  padding-bottom: 0px;
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+}
